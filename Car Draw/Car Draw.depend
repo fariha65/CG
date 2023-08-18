@@ -1,9 +1,11 @@
 # depslib dependency file v1.0
-1690654510 source:d:\github\cg\2nd lab\main.cpp
+1692091078 source:d:\github\cg\car draw\main.cpp
 	<windows.h>
 	<GLUT/glut.h>
 	<GL/glut.h>
 	<stdlib.h>
+	<math.h>
+	<stdio.h>
 
 1301111162 c:\program files (x86)\codeblocks\mingw\include\windows.h
 	<winresrc.h>
@@ -218,4 +220,17 @@
 
 1547264794 c:\program files (x86)\codeblocks\mingw\include\gl\glu.h
 	<GL/gl.h>
+
+1341006774 c:\program files (x86)\codeblocks\mingw\include\math.h
+	<_mingw.h>
+
+1341006776 c:\program files (x86)\codeblocks\mingw\include\stdio.h
+	<_mingw.h>
+	<stddef.h>
+	<stdarg.h>
+	<sys/types.h>
+
+1341006780 c:\program files (x86)\codeblocks\mingw\include\sys\types.h
+	<_mingw.h>
+	<stddef.h>
 
