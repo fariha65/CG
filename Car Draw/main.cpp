@@ -42,7 +42,7 @@ void points ()
     glEnd ();
 }
 
-void lines ()
+/*void lines ()
 {
     glBegin (GL_LINES);
     glVertex2d (7,-1);
@@ -56,7 +56,7 @@ void lines ()
 
     glEnd ();
 
-}
+}*/
 //TRIANGLE COLOR
 void triangle ()
 {
@@ -159,7 +159,7 @@ void circle(float r1,float r2)//float 1 ta diye circle r 2 ta parameter diye ova
 {
     int i=0;
     float angle =0.0;
-    glColor3f(0.54,0.29,0.22);
+   // glColor3f(0.54,0.29,0.22);
     // glScaled(0.5,-0.9,1);
     //glTranslated(2,3,1);
     glBegin (GL_POLYGON);
@@ -176,7 +176,7 @@ void circle(float r1,float r2)//float 1 ta diye circle r 2 ta parameter diye ova
 }
 void carBody()
 {
-    glColor3f(0.94,0.50,0.50);
+
     glBegin(GL_POLYGON);
     glVertex2d(4,1);
     glVertex2d(7,1);
@@ -189,11 +189,14 @@ void carBody()
     glEnd();
 }
 
+
+
+
 void myDisplay ()
 {
     glClear (GL_COLOR_BUFFER_BIT);
 
-    cx +=0.1;
+    cx +=0.001;
     if(cx>=13.5)
         cx=-13.5;
     glPushMatrix();
